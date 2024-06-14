@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: 66px;
+  position: sticky;
+  background-color: white;
+  top: 0;
+  z-index: 1;
+}
+header .container {
+  max-width: 100%;
+  margin: 0 auto;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  min-width: 300px;
+}
+header a {
+  text-decoration-color: rgba(0, 0, 0, 0);
+  text-underline-offset: 6px;
+}
+header a:not(#logo):hover {
+  text-decoration-color: black;
+}
+header a:not(#logo):active {
+  color: #b4a094;
+  text-decoration-color: #b4a094;
+}
+header #logo {
+  font-family: Merriweather;
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: black;
+  text-decoration: none;
+}
+header nav {
+  width: 50%;
+}
+header nav ul {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav li {
+  list-style: none;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+header nav li a {
+  color: black;
+}
+header nav button {
+  width: 134px;
+  height: 44px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background: #E5D5CB;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+header nav button:active {
+  background-color: #b4a094;
+}
+
+.banner {
+  height: 340px;
+  background-color: #E5D5CB;
+  position: relative;
+  padding: 60px 0;
+}
+.banner .container {
+  max-width: 760px;
+  margin: 0 auto;
+  height: 100%;
+  align-items: none;
+  display: flex;
+  justify-content: space-between;
+  min-width: 300px;
+}
+.banner img {
+  width: 230px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 0 0;
+     object-position: 0 0;
+  height: 220px;
+  border-radius: 250px;
+  float: left;
+  margin-right: 18%;
+}
+.banner .me {
+  padding: 20px 0 15px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.banner .me h1 {
+  font-family: Merriweather;
+  font-size: 40px;
+  font-weight: 900;
+  letter-spacing: 2px;
+  margin-bottom: 6px;
+}
+.banner .me p {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+.banner .social img {
+  width: 42px;
+  height: 40px;
+  margin-right: 20px;
+  margin-top: 10px;
+  border-radius: 0;
+}/*# sourceMappingURL=index.css.map */
