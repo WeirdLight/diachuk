@@ -3,6 +3,7 @@ import Banner from './components/Banner';
 import DescribingSections from './components/DescribingSections';
 import PerProjects from './components/Projects/PetProjects';
 import Contacts from './components/Contacts';
+import Title from './components/Title';
 
 export default function App(){
 
@@ -27,7 +28,7 @@ export default function App(){
       <DescribingSections id='skills' title='My Skills' descr={mySkillsDescr} />
 
       <PerProjects />
-      <Contacts />
+      <Contacts /> 
     </>
   );
 }

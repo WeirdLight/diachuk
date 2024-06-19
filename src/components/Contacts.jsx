@@ -3,7 +3,7 @@ import Title from "./Title";
 export default function Contacts(){
     return(
         <footer id='contacts'>
-            <Title />
+            <Title title='Contacts' />
             <span className='contacts'>
                 <ul>
                     <li>Live in Kyiv, Ukraine</li>
