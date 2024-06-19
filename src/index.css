@@ -38,17 +38,6 @@ header .container {
   min-width: 300px;
   padding: 0 60px;
 }
-header a {
-  text-decoration-color: rgba(0, 0, 0, 0);
-  text-underline-offset: 6px;
-}
-header a:not(#logo):hover {
-  text-decoration-color: black;
-}
-header a:not(#logo):active {
-  color: #b4a094;
-  text-decoration-color: #b4a094;
-}
 header #logo {
   font-family: Merriweather;
   font-size: 36px;
@@ -84,6 +73,17 @@ header li {
   font-size: 16px;
   font-weight: 400;
   letter-spacing: 2px;
+}
+header li a {
+  text-decoration-color: rgba(0, 0, 0, 0);
+  text-underline-offset: 6px;
+}
+header li a:not(#logo):hover {
+  text-decoration-color: black;
+}
+header li a:not(#logo):active {
+  color: #b4a094;
+  text-decoration-color: #b4a094;
 }
 header li a {
   color: black;

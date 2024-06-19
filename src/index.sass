@@ -100,17 +100,6 @@ header
     .container
         @include container(1060px, center, space-between, true)
 
-    a
-        text-decoration-color: rgba(0,0,0,0)
-        text-underline-offset: 6px
-
-        &:not(#logo)
-            &:hover
-                text-decoration-color: $fc
-            &:active
-                color: $fc-active
-                text-decoration-color: $fc-active
-
     #logo
         @include text($ff-Merriweather, $fs-logo, 700)
         color: $fc
@@ -140,6 +129,17 @@ header
     li
         list-style: none
         @include text($ff-roboto, $fs-medium, 400)
+
+        a
+            text-decoration-color: rgba(0,0,0,0)
+            text-underline-offset: 6px
+
+            &:not(#logo)
+                &:hover
+                    text-decoration-color: $fc
+                &:active
+                    color: $fc-active
+                    text-decoration-color: $fc-active
 
         a
             color: $fc
