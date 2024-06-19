@@ -492,6 +492,42 @@ footer .contacts li a:hover {
   header nav {
     display: none;
   }
+  header nav.open {
+    display: flex;
+    position: absolute;
+    top: 66px;
+    left: 0;
+    height: 98vh;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  }
+  header nav.open ul {
+    width: 100%;
+    text-align: center;
+    display: block;
+  }
+  header nav.open ul li, header nav.open ul a.button {
+    margin: 10px auto;
+  }
+  header nav.open ul li {
+    height: 50px;
+    width: 130px;
+    background-color: silver;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  header nav.open ul li:hover {
+    background-color: grey;
+  }
+  header nav.open ul li a {
+    color: white;
+    font-weight: bold;
+  }
+  header nav.open ul li a:not(#logo):hover {
+    text-decoration-color: white;
+  }
 }
 @media (max-width: 800px) {
   .banner {
