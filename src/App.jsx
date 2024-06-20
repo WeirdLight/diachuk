@@ -15,7 +15,7 @@ export default function App(){
 
   let mySkillsDescr = <p>I have completed <a target='_blank' rel='noreferrer' href="https://certs.prometheus.org.ua/downloads/d96c22dbb97f43c683ebc918c490029a/Certificate.pdf">
   the Prometheus "Front-End Development" course </a>, where I learnt <span>HTML, CSS, and JavaScript</span>. Additionally, I'm 
-  independently studing <span>React and SCSS/SASS</span>.</p>
+  independently studing <span>ReactJS</span>.</p>
 
   return(
     <>
